@@ -1,0 +1,25 @@
+@import '../../styles.scss';
+
+.wrapper{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    .content{
+        .line{
+            display: grid;
+            grid-template-columns: auto auto auto 1fr;
+            column-gap: 10px;
+            color: $text-color;
+            :hover{
+                color: $text-color-hover;
+            }
+
+            .file-name{
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+﻿@page
+@model FileExchange.MVC.Pages.IndexModel
+<div id="root"></div>
+
+@section sitestyles
+{
+    @if (!string.IsNullOrEmpty(Model.MainCssWebPath))
+    {
+        <link rel="stylesheet" href="@(Model.MainCssWebPath)" />
+    }
+}
+
+@section scripts {
+    @if (!string.IsNullOrEmpty(Model.MainJsWebPath))
+    {
+        <script defer="defer" src="@(Model.MainJsWebPath)"></script>
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../styles.scss';
+
+.wrapper {
+
+    .content{
+        .title{
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            color: $text-color;
+            font-size: 30px;
+            font-weight: bold;
+            align-items: center;
+          }
+    }
+}
+
