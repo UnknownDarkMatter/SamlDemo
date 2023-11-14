@@ -1,0 +1,23 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/.vs
+/src/.vs
+/src/.vs
+/src/FileExchange.Common/bin/Debug/net6.0
+/src/FileExchange.Common/obj
+/src/FileExchange.Common/obj
+/src/FileExchange.Common/Constants.cs
+/src/FileExchange.Data/bin/Debug/net6.0
+/src/FileExchange.Data/bin/Debug/net6.0
+/src/FileExchange.Data/obj
+/src/FileExchange.Entities/bin/Debug/net6.0
+/src/FileExchange.Entities/obj
+/src/FileExchange.MVC/bin/Debug/net6.0
+/.gitignore
+/src/FileExchange.Business/bin/Debug/net6.0
+/src/FileExchange.Business/obj
+/src/FileExchange.MVC/client-app/node_modules
+/src/FileExchange.MVC/obj
